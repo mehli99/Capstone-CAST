@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CAST — Account Settings</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <main class="dashboard-card patient-card" role="main">
+    <header class="dashboard-header">
+      <div class="logo-box"><img src="CAST_LOGO.png" alt="CAST logo" /></div>
+      <button class="avatar-btn" aria-label="Profile">
+        <svg width="24" height="24" viewBox="0 0 24 24"><circle cx="12" cy="8" r="4"></circle>
+        <path d="M2 21c2-4 6-6 10-6s8 2 10 6"></path></svg>
+      </button>
+    </header>
+
+    <h1 class="section-heading">Account Settings</h1>
+    <p id="saveMsg" class="save-msg" style="display:none;">✓ Changes saved</p>
+    
+    <form id="settingsForm" autocomplete="off">
+
+      <div class="field edit-field">
+        <input type="email" name="email" placeholder="E-MAIL" />
+        <button type="button" class="edit-toggle" aria-label="Edit e-mail"></button>
+      </div>
+
+      <hr class="field-divider" />
+
+      <div class="field edit-field">
+        <input type="text" name="firstName" placeholder="FIRST NAME" />
+        <button type="button" class="edit-toggle" aria-label="Edit first name"></button>
+      </div>
+
+      <div class="field edit-field">
+        <input type="text" name="lastName" placeholder="LAST NAME" />
+        <button type="button" class="edit-toggle" aria-label="Edit last name"></button>
+      </div>
+
+      <div class="field edit-field">
+        <input type="text" name="city" placeholder="CITY" />
+        <button type="button" class="edit-toggle" aria-label="Edit city"></button>
+      </div>
+
+      <div class="field edit-field">
+        <input type="text" name="state" placeholder="STATE" />
+        <button type="button" class="edit-toggle" aria-label="Edit state"></button>
+      </div>
+
+      <div class="field edit-field">
+        <input type="text" name="setting" placeholder="CLINICAL SETTING" />
+        <button type="button" class="edit-toggle" aria-label="Edit clinical setting"></button>
+      </div>
+
+      <hr class="field-divider" />
+
+      <div class="field">
+        <button type="button" id="showPwdChange" class="pill-btn">Change Password</button>
+      </div>
+
+      <div id="pwdChangeBlock" style="display:none;">
+        <div class="field password-field">
+          <input type="password" name="oldPassword" placeholder="OLD PASSWORD" />
+          <button type="button" class="toggle-pwd" aria-label="Show password"></button>
+        </div>
+        <div class="field password-field">
+          <input type="password" name="newPassword" placeholder="NEW PASSWORD" />
+          <button type="button" class="toggle-pwd" aria-label="Show password"></button>
+        </div>
+        <div class="field password-field">
+          <input type="password" name="confirmPassword" placeholder="CONFIRM NEW PASSWORD" />
+          <button type="button" class="toggle-pwd" aria-label="Show password"></button>
+        </div>
+      </div>
+
+      <button type="submit" class="btn btn-accent" style="margin-top:2rem;">Save Changes</button>
+    </form>
+  </main>
+  
+  <script src="settings.js"></script>
+
+</body>
+</html>

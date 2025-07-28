@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CAST — New Patient</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <main class="dashboard-card patient-card" role="main">
+    <header class="dashboard-header" style="margin-bottom:2.25rem;">
+      <div class="logo-box">
+        <img src="CAST_LOGO.png" alt="CAST logo" />
+      </div>
+      <button class="avatar-btn" aria-label="Profile">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+             stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/>
+          <circle cx="12" cy="7" r="4"/>
+        </svg>
+      </button>
+    </header>
+    <h1 class="section-heading">New Patient Profile</h1>
+    <form autocomplete="off" action="newPatient.php" method="post">
+      <div class="field">
+        <input type="text" name="first_Name" placeholder="FIRST NAME" required />
+      </div>
+      <div class="field">
+        <input type="text" name="middle_Initial" placeholder="MIDDLE INITIAL" maxlength="2" />
+      </div>
+      <div class="field">
+        <input type="text" name="last_Name" placeholder="LAST NAME" required />
+      </div>
+      <div class="dob-sex">
+        <div class="field">
+          <input type="text" name="dob" placeholder="DATE OF BIRTH  (YYYY-MM-DD)" required />
+        </div>
+        <div class="field">
+          <select name="sex" required>
+            <option value="" disabled selected hidden>SEX</option>
+            <option value="female">Female</option>
+            <option value="male">Male</option>
+            <option value="other">Other / Prefer not to say</option>
+          </select>
+        </div>
+      </div>
+      <p class="small" style="margin:1rem 0 .25rem;">OPTIONAL</p>
+      <div class="field">
+        <input type="email" name="email" placeholder="PATIENT EMAIL ADDRESS" />
+      </div>
+      <button type="submit" class="btn btn-accent" style="margin-top:.5rem;">Create Profile</button>
+    </form>
+  </main>
+  <script src="scripts.jss"></script>
+</body>
+</html>

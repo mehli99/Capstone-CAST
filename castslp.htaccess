@@ -1,0 +1,13 @@
+# Turn on the URL rewriting engine
+RewriteEngine On
+
+# Prevent looping
+RewriteCond %{ENV:REDIRECT_STATUS} ^$
+
+# Rule to remove .php extension
+RewriteCond %{REQUEST_FILENAME}.php -f
+RewriteRule ^(.*)$ $1.php [L]
+
+# Rule to remove .html extension
+RewriteCond %{REQUEST_FILENAME}.html -f
+RewriteRule ^(.*)$ $1.html [L]

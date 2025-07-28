@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CAST — Patient Information</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <main class="dashboard-card patient-card" role="main">
+    <header class="dashboard-header" style="margin-bottom:2rem;">
+      <div class="logo-box"><img src="CAST_LOGO.png" alt="CAST logo" /></div>
+      <button class="avatar-btn" aria-label="Profile">
+        <svg width="24" height="24" viewBox="0 0 24 24"><circle cx="12" cy="8" r="4"></circle><path d="M2 21c2-4 6-6 10-6s8 2 10 6"></path></svg>
+      </button>
+    </header>
+
+    <h1 class="section-heading">Patient Info</h1>
+    <p id="saveMsg" class="save-msg" style="display:none;">✓ Changes saved</p>
+
+    <form id="infoForm" autocomplete="off">
+      <input type="hidden" name="id" />
+
+      <div class="field edit-field">
+      <input name="first_Name" placeholder="FIRST NAME" readonly />
+      <button type="button" class="edit-toggle" aria-label="Edit first name"></button>
+      </div>
+      <div class="field edit-field">
+      <input name="middle_Initial" placeholder="MIDDLE INITIAL" maxlength="2" readonly />
+      <button type="button" class="edit-toggle" aria-label="Edit middle initial"></button>
+      </div>
+      <div class="field edit-field">
+      <input name="last_Name" placeholder="LAST NAME" readonly />
+      <button type="button" class="edit-toggle" aria-label="Edit last name"></button>
+      </div>
+      <div class="field edit-field">
+      <input name="dob" placeholder="DATE OF BIRTH (YYYY-MM-DD)" readonly />
+      <button type="button" class="edit-toggle" aria-label="Edit DOB"></button>
+      </div>
+      <div class="field edit-field">
+      <input name="sex" placeholder="SEX" readonly />
+      <button type="button" class="edit-toggle" aria-label="Edit sex"></button>
+      </div>
+      <div class="field edit-field">
+      <input name="email" type="email" placeholder="EMAIL" readonly />
+      <button type="button" class="edit-toggle" aria-label="Edit email"></button>
+      </div>
+
+      <button type="submit" class="btn btn-accent" style="margin-top:1.75rem;">Save Changes</button>
+    </form>
+
+    <a id="backLink" href="patientHomepage.html" class="back-btn">← Back</a>
+  </main>
+  
+  <script src="patientprofile.js"></script>
+  
+  </body>
+</html>

@@ -1,0 +1,24 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CAST — Patient Dashboard</title>
+<link rel="stylesheet" href="styles.css"></head>
+<body>
+    <main class="dashboard-card"><header class="dashboard-header">
+        <div class="logo-box"><img src="CAST_LOGO.png" alt="CAST logo"></div>
+        <button class="avatar-btn" aria-label="Profile">
+            <svg width="24" height="24" viewBox="0 0 24 24"><circle cx="12" cy="8" r="4"></circle><path d="M2 21c2-4 6-6 10-6s8 2 10 6"></path></svg>
+</button>
+</header>
+<h1 class="section-heading"><?= htmlspecialchars($name)?></h1>
+<nav class="menu">
+<a href="cast.php?<?= $params ?>" class="menu-btn add-btn"><span class="plus">+</span>Start CAST</a>
+<a href="patientInfo.html?<?= $params ?>" class="menu-btn">Patient Information</a>
+<a href="#" class="menu-btn">CAST Results</a>
+<a href="#" class="menu-btn">Video/Audio Recording</a>
+</nav>
+<a href="patientProfiles.php" class="back-btn">← Back</a>
+<script src="scripts.js"></script>
+</main>
+</body>
+</html>
