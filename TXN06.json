@@ -1,0 +1,64 @@
+{
+    "patient_profile": {
+        "id": 5,
+        "first_Name": "Tyson",
+        "last_Name": "Taylor",
+        "dob": "2004-08-13",
+        "sex": "male",
+        "email": ""
+    },
+    "scenarios_to_run": [
+        "Urgent Care Center"
+    ],
+    "record_session": false,
+    "status": "finished",
+    "current_scenario_idx": 1,
+    "current_task_idx": 0,
+    "scores": {
+        "Urgent Care Center": [
+            {
+                "Language Expression": 3,
+                "Language Comprehension": 3,
+                "Fluency": 3,
+                "Cognition": 3,
+                "Multimodal Communication": 3,
+                "Overall": 3
+            },
+            {
+                "Language Expression": 3,
+                "Language Comprehension": 3,
+                "Fluency": 3,
+                "Cognition": 3,
+                "Multimodal Communication": 3,
+                "Overall": 3
+            },
+            {
+                "Language Expression": 3,
+                "Language Comprehension": 3,
+                "Fluency": 3,
+                "Cognition": 3,
+                "Multimodal Communication": 3,
+                "Overall": 3
+            },
+            {
+                "Language Expression": 3,
+                "Language Comprehension": 3,
+                "Fluency": 3,
+                "Cognition": 3,
+                "Multimodal Communication": 3,
+                "Overall": 3
+            },
+            {
+                "Language Expression": 3,
+                "Language Comprehension": 3,
+                "Fluency": 3,
+                "Cognition": 3,
+                "Multimodal Communication": 3,
+                "Overall": 3
+            }
+        ]
+    },
+    "current_scenario_text": "Urgent Care Center",
+    "current_task_text": "The doctor takes an X-ray of your shoulder and says the results will be ready in a few days...",
+    "current_image_url": "images\/urgent_care5.jpg"
+}

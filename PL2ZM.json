@@ -1,0 +1,40 @@
+{
+    "patient_profile": {
+        "id": 3,
+        "first_Name": "Nicholas",
+        "last_Name": "Stuhn",
+        "dob": "2002-11-22",
+        "sex": "male",
+        "email": "nstuhn@email.sc.edu"
+    },
+    "scenarios_to_run": [
+        "Urgent Care Center"
+    ],
+    "record_session": true,
+    "status": "in_progress",
+    "current_scenario_idx": 0,
+    "current_task_idx": 2,
+    "scores": {
+        "Urgent Care Center": [
+            {
+                "Language Expression": 3,
+                "Language Comprehension": 3,
+                "Fluency": 3,
+                "Cognition": 3,
+                "Multimodal Communication": 3,
+                "Overall": 3
+            },
+            {
+                "Language Expression": 3,
+                "Language Comprehension": 3,
+                "Fluency": 3,
+                "Cognition": 3,
+                "Multimodal Communication": 3,
+                "Overall": 3
+            }
+        ]
+    },
+    "current_scenario_text": "Urgent Care Center",
+    "current_task_text": "The front desk worker says, \u201cThe doctor will see you in 25 minutes. Can you tell me your date of birth, and the city you live in?\u201d",
+    "current_image_url": "images\/urgent_care3.jpg"
+}

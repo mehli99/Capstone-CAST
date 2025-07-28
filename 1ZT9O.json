@@ -1,0 +1,21 @@
+{
+    "patient_profile": {
+        "id": 3,
+        "first_Name": "Nicholas",
+        "last_Name": "Stuhn",
+        "dob": "2002-11-22",
+        "sex": "male",
+        "email": "nstuhn@email.sc.edu"
+    },
+    "scenarios_to_run": [
+        "Urgent Care Center",
+        "Restaurant",
+        "Grocery Store",
+        "Calling a Repair Service"
+    ],
+    "record_session": true,
+    "status": "ready_to_start",
+    "current_scenario_idx": 0,
+    "current_task_idx": -1,
+    "scores": []
+}

@@ -1,0 +1,64 @@
+{
+    "patient_profile": {
+        "id": 3,
+        "first_Name": "Nicholas",
+        "last_Name": "Stuhn",
+        "dob": "2002-11-22",
+        "sex": "male",
+        "email": "nstuhn@email.sc.edu"
+    },
+    "scenarios_to_run": [
+        "Urgent Care Center"
+    ],
+    "record_session": true,
+    "status": "finished",
+    "current_scenario_idx": 1,
+    "current_task_idx": 0,
+    "scores": {
+        "Urgent Care Center": [
+            {
+                "Language Expression": 3,
+                "Language Comprehension": 3,
+                "Fluency": 3,
+                "Cognition": 3,
+                "Multimodal Communication": 3,
+                "Overall": 3
+            },
+            {
+                "Language Expression": 3,
+                "Language Comprehension": 2,
+                "Fluency": 3.5,
+                "Cognition": 3,
+                "Multimodal Communication": 3,
+                "Overall": 3
+            },
+            {
+                "Language Expression": 3,
+                "Language Comprehension": 3,
+                "Fluency": 3,
+                "Cognition": 3,
+                "Multimodal Communication": 3,
+                "Overall": 3
+            },
+            {
+                "Language Expression": 3,
+                "Language Comprehension": 3,
+                "Fluency": 3,
+                "Cognition": 3,
+                "Multimodal Communication": 3,
+                "Overall": 3
+            },
+            {
+                "Language Expression": 3,
+                "Language Comprehension": 3,
+                "Fluency": 3,
+                "Cognition": 3,
+                "Multimodal Communication": 3,
+                "Overall": 3
+            }
+        ]
+    },
+    "current_scenario_text": "Urgent Care Center",
+    "current_task_text": "The doctor takes an X-ray of your shoulder and says the results will be ready in a few days...",
+    "current_image_url": "images\/urgent_care5.jpg"
+}

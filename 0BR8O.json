@@ -1,0 +1,18 @@
+{
+    "patient_profile": {
+        "id": 4,
+        "first_Name": "Nick",
+        "last_Name": "Stuhn",
+        "dob": "2002-11-22",
+        "sex": "male",
+        "email": "asdf@asdf"
+    },
+    "scenarios_to_run": [
+        "Urgent Care Center"
+    ],
+    "record_session": true,
+    "status": "ready_to_start",
+    "current_scenario_idx": 0,
+    "current_task_idx": -1,
+    "scores": []
+}
